@@ -1,24 +1,11 @@
 /*
-Top 3 Wineries In The World
-https://platform.stratascratch.com/coding/10042-top-3-wineries-in-the-world?code_type=10042
+More Than 100 Dollars
+https://platform.stratascratch.com/coding/2115-more-than-100-dollars?code_type=1
 Difficulty: Hard
-Find the top 3 wineries in each country based on the average points earned. In case there is a tie, order the wineries by winery name in ascending order. Output the country along with the best, second best, and third best wineries. If there is no second winery (NULL value) output 'No second winery' and if there is no third winery output 'No third winery'. For outputting wineries format them like this: "winery (avg_points)"
-Tables:
-(winemag_p1)
-id              int
-country         varchar
-description     varchar
-designation     varchar
-points          int
-price           float
-province        varchar
-region_1        varchar
-region_2        varchar
-variety         varchar
-winery          varchar
+For each month of 2021, calculate what percentage of restaurants, out of these that fulfilled any orders in a given month, fulfilled more than 100$ in monthly sales?
 */
 
-with tab as(SELECT distinct date_part('month',order_placed_time) as dt,
+with tab as(select distinct date_part('month',order_placed_time) as dt,
 sum(count(distinct restaurant_id)) over(partition by date_part('month',order_placed_time)) as s
 from delivery_orders
 left join order_value ov
@@ -37,9 +24,3 @@ group by date_part('month',order_placed_time)
 
 select t.dt,s/c*100 from tab left join t on tab.dt=t.dt
 
-
-SELECT department,
-       first_name,
-       salary,
-       AVG(salary) OVER(PARTITION BY department) AS avg
-FROM employee;
