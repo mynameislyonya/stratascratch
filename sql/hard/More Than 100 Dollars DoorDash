@@ -1,0 +1,38 @@
+/*
+Top 3 Wineries In The World
+https://platform.stratascratch.com/coding/10042-top-3-wineries-in-the-world?code_type=10042
+Difficulty: Hard
+Find the top 3 wineries in each country based on the average points earned. In case there is a tie, order the wineries by winery name in ascending order. Output the country along with the best, second best, and third best wineries. If there is no second winery (NULL value) output 'No second winery' and if there is no third winery output 'No third winery'. For outputting wineries format them like this: "winery (avg_points)"
+Tables:
+(winemag_p1)
+id              int
+country         varchar
+description     varchar
+designation     varchar
+points          int
+price           float
+province        varchar
+region_1        varchar
+region_2        varchar
+variety         varchar
+winery          varchar
+*/
+
+with tab as(SELECT distinct date_part('month',order_placed_time) as dt,
+sum(count(distinct restaurant_id)) over(partition by date_part('month',order_placed_time)) as s
+from delivery_orders
+left join order_value ov
+on delivery_orders.delivery_id=ov.delivery_id
+where to_char(order_placed_time, 'yyyy') = '2021'
+group by date_part('month',order_placed_time),restaurant_id
+having sum(sales_amount)>100), t as (
+select  date_part('month',order_placed_time) as dt,
+count(distinct restaurant_id) as c
+from delivery_orders
+left join order_value ov
+on delivery_orders.delivery_id=ov.delivery_id
+where to_char(order_placed_time, 'yyyy') = '2021'
+group by date_part('month',order_placed_time)
+)
+
+select t.dt,s/c*100 from tab left join t on tab.dt=t.dt
