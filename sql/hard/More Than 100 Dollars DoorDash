@@ -36,3 +36,10 @@ group by date_part('month',order_placed_time)
 )
 
 select t.dt,s/c*100 from tab left join t on tab.dt=t.dt
+
+
+SELECT department,
+       first_name,
+       salary,
+       AVG(salary) OVER(PARTITION BY department) AS avg
+FROM employee;
