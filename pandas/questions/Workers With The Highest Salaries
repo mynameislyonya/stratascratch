@@ -9,7 +9,6 @@ ID 10353
 
 Find the titles of workers that earn the highest salary. Output the highest-paid title or multiple titles that share the highest salary.
 
-# Import your libraries
 import pandas as pd
 
 title.rename(columns={'worker_ref_id':'worker_id'},inplace=True)
