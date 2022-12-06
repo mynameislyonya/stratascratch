@@ -2,8 +2,7 @@
 
 
 
-This repository contains solutions to questions which have been attempted on [StrataScratch](https://www.stratascratch.com) to hone my ability in tackling complex logic when tackling SQL technical interviews.
-
+Этот репозиторий содержит решения вопросов, которые были  на [Strata Scratch](https://www.stratascratch.com ), чтобы показать свои способности в решении сложных логических задач при проведении технических собеседований по SQL.
 
 
 
