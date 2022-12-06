@@ -1,3 +1,5 @@
+https://platform.stratascratch.com/coding/10037-find-favourite-wine-variety?code_type=1
+
 with t as(select taster_name,variety,count(*) as cnt from winemag_p2
 where taster_name is not null
 group by taster_name,variety
