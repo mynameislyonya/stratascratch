@@ -1,4 +1,3 @@
-
 with tab as(
   select 
     distinct date_part('month',order_placed_time) as dt,
