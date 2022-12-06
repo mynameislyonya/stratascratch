@@ -1,0 +1,7 @@
+https://platform.stratascratch.com/coding/2065-time-from-10th-runner?code_type=1
+
+with t as(select *, dense_rank() over(order by net_time) as rnk
+from marathon_male) 
+
+select net_time-(select distinct net_time from t where rnk=10) from marathon_male
+where person_name='Chris Doe'
