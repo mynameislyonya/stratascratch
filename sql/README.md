@@ -28,5 +28,5 @@ This repository contains solutions to questions which have been attempted on [St
 |2104|[User with Most Approved Flags](https://platform.stratascratch.com/coding/2104-user-with-most-approved-flags?code_type=1)|Medium|[Link](https://github.com/mynameislyonya/stratascratch/blob/main/sql/medium/User%20with%20Most%20Approved%20Flags.sql)
 |2106|[Rows With Missing Values](https://platform.stratascratch.com/coding/2106-rows-with-missing-values?code_type=1)|Medium|[Link](https://github.com/mynameislyonya/stratascratch/blob/main/sql/medium/Rows%20With%20Missing%20Values.sql)
 |2098|[World Tours](https://platform.stratascratch.com/coding/2098-world-tours?code_type=1)|Medium|[Link](https://github.com/mynameislyonya/stratascratch/blob/main/sql/medium/World%20Tours.sql)
-||[]()|Medium|[Link]()
+|9726|[Classify Business Type](https://platform.stratascratch.com/coding/9726-classify-business-type?code_type=1)|Medium|[Link](https://github.com/mynameislyonya/stratascratch/blob/main/sql/medium/Classify%20Business%20Type.sql)
 
