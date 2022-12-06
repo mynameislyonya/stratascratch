@@ -22,7 +22,7 @@ This repository contains solutions to questions which have been attempted on [St
 |10043|[Median Price Of Wines Wine Magazine](https://platform.stratascratch.com/coding/10043-median-price-of-wines?tabname=solutions)|Hard|[Link](https://github.com/mynameislyonya/stratascratch/blob/main/sql/hard/Median%20Price%20Of%20Wines%20Wine%20Magazine.sql)
 |10046|[Top 5 States With 5 Star Businesses Yelp](https://platform.stratascratch.com/coding/10046-top-5-states-with-5-star-businesses?code_type=1)|Hard|[Link](https://github.com/mynameislyonya/stratascratch/blob/main/sql/hard/Top%205%20States%20With%205%20Star%20Businesses%20Yelp.sql)
 |10303|[Top Percentile Fraud Netflix](https://platform.stratascratch.com/coding/10303-top-percentile-fraud?tabname=question)|Hard|[Link](https://github.com/mynameislyonya/stratascratch/blob/main/sql/hard/Top%20Percentile%20Fraud%20Netflix.sql)
-||[]()|Hard|[Link]()
+|9919|[Unique Highest Salary Salesforce](https://platform.stratascratch.com/coding/9919-unique-highest-salary?code_type=1)|Hard|[Link](https://github.com/mynameislyonya/stratascratch/blob/main/sql/hard/Unique%20Highest%20Salary%20Salesforce.sql)
 ||[]()|Hard|[Link]()
 ||[]()|Hard|[Link]()
 ||[]()|Hard|[Link]()
