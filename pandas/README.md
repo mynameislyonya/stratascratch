@@ -1,5 +1,4 @@
-# Pandas Technical Interview Preparation
-
+# Pandas-вопрос и проекты
 
 
 Этот репозиторий содержит решения вопросов, которые были  на [Strata Scratch](https://www.stratascratch.com ), чтобы показать свои способности в решении сложных логических задач при проведении технических собеседований по pandas. А также Data Projects на pandas.
