@@ -20,8 +20,7 @@ This repository contains solutions to questions which have been attempted on [St
 |9632|[Host Popularity Rental Prices Airbnb](https://platform.stratascratch.com/coding/9632-host-popularity-rental-prices?code_type=1)|Hard|[Link](https://github.com/mynameislyonya/stratascratch/blob/main/sql/hard/Host%20Popularity%20Rental%20Prices%20Airbnb.sql)
 |2036|[Lowest Revenue Generate DoorDash](https://platform.stratascratch.com/coding/2036-lowest-revenue-generated-restaurants?code_type=1)|Hard|[Link](https://github.com/mynameislyonya/stratascratch/blob/main/sql/hard/Lowest%20Revenue%20Generate%20DoorDash.sql)
 |10043|[Median Price Of Wines Wine Magazine](https://platform.stratascratch.com/coding/10043-median-price-of-wines?tabname=solutions)|Hard|[Link](https://github.com/mynameislyonya/stratascratch/blob/main/sql/hard/Median%20Price%20Of%20Wines%20Wine%20Magazine.sql)
-|10046|[Top 5 States With 5 Star Businesses Yelp](https://platform.stratascratch.com/coding/10046-top-5-states-with-5-star-businesses?code_type=1
-)|Hard|[Link](https://github.com/mynameislyonya/stratascratch/blob/main/sql/hard/Top%205%20States%20With%205%20Star%20Businesses%20Yelp.sql)
+|10046|[Top 5 States With 5 Star Businesses Yelp](https://platform.stratascratch.com/coding/10046-top-5-states-with-5-star-businesses?code_type=1)|Hard|[Link](https://github.com/mynameislyonya/stratascratch/blob/main/sql/hard/Top%205%20States%20With%205%20Star%20Businesses%20Yelp.sql)
 |10303|[Top Percentile Fraud Netflix](https://platform.stratascratch.com/coding/10303-top-percentile-fraud?tabname=question)|Hard|[Link](https://github.com/mynameislyonya/stratascratch/blob/main/sql/hard/Top%20Percentile%20Fraud%20Netflix.sql)
 ||[]()|Hard|[Link]()
 ||[]()|Hard|[Link]()
