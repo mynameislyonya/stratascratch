@@ -1,6 +1,6 @@
 /*
 More Than 100 Dollars
-[HeySushil - YouTube](https://platform.stratascratch.com/coding/2115-more-than-100-dollars?code_type=1)
+https://platform.stratascratch.com/coding/2115-more-than-100-dollars?code_type=1
 Difficulty: Hard
 For each month of 2021, calculate what percentage of restaurants, out of these that fulfilled any orders in a given month, fulfilled more than 100$ in monthly sales?
 */
