@@ -5,8 +5,6 @@
 
 
 
-|  #  | Title | Difficulty | Solution |
-|:---:|:-----:|:----------:|:--------:|
 | Title | Difficulty | Solution |
 |:-----:|:----------:|:--------:|
 [Account Registrations](https://platform.stratascratch.com/coding/2126-account-registrations?code_type=2
