@@ -1,4 +1,4 @@
-# SQL Technical Interview Preparation
+# SQL 
 
 
 
