@@ -7,8 +7,7 @@
 
 | Title | Difficulty | Solution |
 |:-----:|:----------:|:--------:|
-[Account Registrations](https://platform.stratascratch.com/coding/2126-account-registrations?code_type=2
-)|Medium|[Link](https://github.com/mynameislyonya/stratascratch/blob/main/pandas/questions/Account%20Registrations.py)
+[Account Registrations](https://platform.stratascratch.com/coding/2126-account-registrations?code_type=2)|Medium|[Link](https://github.com/mynameislyonya/stratascratch/blob/main/pandas/questions/Account%20Registrations.py)
 [3 Bed Minimum](https://platform.stratascratch.com/coding/9627-3-bed-minimum?code_type=2)|Medium|[Link](https://github.com/mynameislyonya/stratascratch/blob/main/pandas/questions/3%20Bed%20Minimum.py)
 [Activity Rank](https://platform.stratascratch.com/coding/10351-activity-rank?code_type=2)|Medium|[Link](https://github.com/mynameislyonya/stratascratch/blob/main/pandas/questions/Activity%20Rank.py)
 [Book Sales](https://platform.stratascratch.com/coding/2128-book-sales?code_type=2)|Medium|[Link](https://github.com/mynameislyonya/stratascratch/blob/main/pandas/questions/Book%20Sales.py)
