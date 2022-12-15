@@ -5,6 +5,19 @@
 
 
 
-|  #  | Title | Difficulty | Solution |
-|:---:|:-----:|:----------:|:--------:|
-||[]()|Hard|[Link]()
+ Title | Difficulty | Solution |
+:-----:|:----------:|:--------:|
+[Account Registrations](https://platform.stratascratch.com/coding/2126-account-registrations?code_type=2)|Medium|[Link](https://github.com/mynameislyonya/stratascratch/blob/main/pandas/questions/Account%20Registrations.py)
+[]()|Medium|[Link]()
+[]()|Medium|[Link]()
+[]()|Medium|[Link]()
+[]()|Medium|[Link]()
+[]()|Medium|[Link]()
+[]()|Medium|[Link]()
+[]()|Medium|[Link]()
+[]()|Medium|[Link]()
+[]()|Medium|[Link]()
+[]()|Medium|[Link]()
+[]()|Medium|[Link]()
+[]()|Medium|[Link]()
+[]()|Medium|[Link]()
