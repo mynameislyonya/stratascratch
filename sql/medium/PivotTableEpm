@@ -1,0 +1,10 @@
+https://platform.stratascratch.com/coding/10145-make-a-pivot-table-to-find-the-highest-payment-in-each-year-for-each-employee?code_type=1
+
+select employeename,
+max(case when year = 2011 then totalpay else 0 end) pay_2011,
+max(case when year = 2012 then totalpay else 0 end) pay_2012,
+max(case when year = 2013 then totalpay else 0 end) pay_2013,
+max(case when year = 2014 then totalpay else 0 end) pay_2014
+from sf_public_salaries
+group by employeename
+order by employeename
