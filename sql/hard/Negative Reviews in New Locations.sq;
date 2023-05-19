@@ -1,0 +1,9 @@
+https://platform.stratascratch.com/coding/2087-negative-reviews-in-new-locations?code_type=1
+
+select name,count(*) filter(where score<5)/(count(*)::decimal-count(*) filter(where score<5)) as rate
+from instacart_reviews ir
+left join instacart_stores isn on 
+ir.store_id = isn.id
+where opening_date >= '2021-07-01'
+group by name
+having (count(*) filter(where score<5)>0) and (count(*) filter(where score<5)/count(*)::decimal*100)>20
