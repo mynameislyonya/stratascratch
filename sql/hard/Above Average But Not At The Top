@@ -1,0 +1,10 @@
+https://platform.stratascratch.com/coding/9985-above-average-but-not-at-the-top?code_type=1
+
+with top5 as (select employeename from(select *, rank() over(partition by jobtitle order by totalpay desc) rnk from sf_public_salaries
+where year = 2013) x
+where x.rnk <=5), av as (
+select *, avg(totalpay) over(partition by jobtitle) ag from sf_public_salaries
+where year = 2013)
+
+select employeename from av
+where (totalpay > ag) and (employeename not in (select * from top5))
