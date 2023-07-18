@@ -1,0 +1,12 @@
+https://platform.stratascratch.com/coding/9977-find-the-number-of-police-officers-firefighters-and-medical-staff-employees?code_type=1
+
+select case when lower(jobtitle) like '%police%' then 'Police'
+when lower(jobtitle) like '%fire%' then 'Firefighter'
+when lower(jobtitle) like '%medical%' then 'Medical Staff'
+else 'NA'
+end as occupation, 
+count(employeename) as emp_count
+from sf_public_salaries
+where lower(jobtitle) like '%police%' or
+lower(jobtitle) like '%fire%' or lower(jobtitle) like '%medical%'
+group by 1
