@@ -1,0 +1,16 @@
+https://platform.stratascratch.com/coding/2165-sales-percentage-weeks-beginning-and-end?code_type=1
+
+with tab1 as (select *,extract(week from to_date(invoicedate,'DD/MM/YYYY HH24:M1')) as num_wekk,
+extract(isodow from to_date(invoicedate,'DD/MM/YYYY HH24:M1')) as num_day
+from early_sales), tab2 as (
+
+select num_wekk,num_day,sum(quantity*unitprice) over(partition by num_wekk) as sw,
+sum(quantity*unitprice) over(partition by num_wekk,num_day) as sd
+from tab1)
+, tab3 as(
+select num_wekk,num_day,round(sd/sw*100) as perc from tab2)
+
+select num_wekk, coalesce(max(case when num_day= 1 then perc end),0),
+coalesce(max(case when num_day= 7 then perc end),0) from tab3
+group by 1
+order by 1 
